@@ -1,3 +1,4 @@
+/*
 resource "aws_security_group" "state_ec2_sg" {
   name        = "humangov-${var.state_name}-ec2-sg"
   description = "Allow traffic on ports 22 and 80"
@@ -61,6 +62,7 @@ resource "aws_instance" "state_ec2" {
 
 
 }
+*/
 
 resource "aws_dynamodb_table" "state_dynamodb" {
   name         = "humangov-${var.state_name}-dynamodb"
