@@ -21,7 +21,7 @@ spec:
           pathType: Prefix
           backend:
             service:
-              name: humangov-nginx-service-staging
+              name: humangov-nginx-service-california
               port:
                 number: 80
     - host: florida-humangov.itsym.tech
