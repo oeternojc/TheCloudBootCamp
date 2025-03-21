@@ -14,7 +14,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: staging-humangov.itsym.tech
+    - host: california-humangov.itsym.tech
       http:
         paths:
         - path: /
