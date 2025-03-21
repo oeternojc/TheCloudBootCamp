@@ -15,10 +15,10 @@ spec:
       serviceAccountName: humangov-pod-execution-role
       containers:
       - name: humangov-python-app-florida
-        image: CONTAINER_IMAGE
+        image: 542450504390.dkr.ecr.us-east-1.amazonaws.com/thecloud/humangov-app:latest
         env:
         - name: AWS_BUCKET
-          value: "humangov-florida-s3-86zj"
+          value: "humangov-florida-s3-exod"
         - name: AWS_DYNAMODB_TABLE
           value: "humangov-florida-dynamodb"
         - name: AWS_REGION
