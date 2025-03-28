@@ -18,7 +18,7 @@ spec:
         image: CONTAINER_IMAGE
         env:
         - name: AWS_BUCKET
-          value: "humangov-staging-s3-571i"
+          value: "humangov-staging-s3-i0w5"
         - name: AWS_DYNAMODB_TABLE
           value: "humangov-staging-dynamodb"
         - name: AWS_REGION
